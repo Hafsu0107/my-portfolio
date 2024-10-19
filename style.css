@@ -8,10 +8,11 @@
 .portfolio-container {
   min-height: 100vh;
   width: 100%;
-  background-color: #262525;
+  display: flex;
+  /* background-color: #262525; */
 }
 /* nav-sec */
-.nav-bar {
+/* .nav-bar {
   display: flex;
   margin: 9px;
 }
@@ -30,21 +31,47 @@
   padding: 5px 0px 0px 5px;
   cursor: pointer;
   color: #fff;
-}
+} */
 .nav-list {
   display: flex;
-  gap: 5.5rem;
-  margin: auto;
+  gap: 3.5rem;
+  height: 15vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  font-size: 15px;
   cursor: pointer;
-  color: #fff;
 }
 a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
 }
-/* :hover a {
-  color: orangered;
-} */
+.left-container,
+.right-container {
+  height: 100vh;
+}
+.left-container {
+  background-color: #262525;
+  width: 70%;
+}
+.right-container {
+  background-color: #3877ff;
+  width: 30%;
+}
+.icons .fa-brands {
+  color: #bbb;
+  font-size: 1.5rem;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.intro-sec {
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+}
