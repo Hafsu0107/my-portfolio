@@ -8,6 +8,7 @@
 .portfolio-container {
   min-height: 100vh;
   width: 100%;
+  background-color: #262525;
 }
 /* nav-sec */
 .nav-bar {
@@ -28,6 +29,7 @@
   font-style: italic;
   padding: 5px 0px 0px 5px;
   cursor: pointer;
+  color: #fff;
 }
 .nav-list {
   display: flex;
@@ -36,7 +38,7 @@
   list-style: none;
   font-size: 15px;
   cursor: pointer;
-  color: #999;
+  color: #fff;
 }
 a {
   text-decoration: none;
@@ -46,11 +48,3 @@ a {
 /* :hover a {
   color: orangered;
 } */
-.left-container {
-  background-color: #262525;
-  width: 70%;
-}
-.right-container {
-  background-color: #3877ff;
-  width: 30%;
-}
