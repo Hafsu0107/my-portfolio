@@ -437,3 +437,71 @@ footer {
   top: 50%;
 }
 /* footer comp */
+@media (max-width: 767px) {
+  .container {
+    clip-path: polygon(
+      20% 0%,
+      80% 0%,
+      100% 0,
+      100% 100%,
+      80% 100%,
+      20% 100%,
+      0 100%,
+      0 0
+    );
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-logo {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  .logo {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+  }
+  .logo-name {
+    font-size: 45px;
+  }
+  .icons {
+    margin-top: -16rem;
+  }
+  .intro {
+    margin-right: 14rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 50px;
+
+    margin-left: -15rem;
+    text-align: center;
+  }
+  .content .detail {
+    display: none;
+  }
+  .content-btn-one {
+    display: none;
+  }
+  .content-btn-two {
+    margin-left: -1rem;
+  }
+  .service-para {
+    width: 80%;
+    margin: auto;
+  }
+  .card-wrapper .card p {
+    display: none;
+  }
+  .card-wrapper .card {
+    display: block;
+  }
+  /* .porfolio-sec .card-wrapper .card {
+    display: block;
+    /* grid-row: 1fr 1fr; */
+  /* grid-template-rows: 1fr 1fr; */
+  /* display: none; */
+}
