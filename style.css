@@ -424,10 +424,16 @@ footer {
   text-align: center;
   background-repeat: no-repeat;
   height: 100vh;
-
   background-size: cover;
   background-image: url(images/depositphotos_159337220-stock-illustration-sr-brush-letter-logo-design.jpg);
 }
 .footer-sr-logo {
   text-align: center;
 }
+.copyright {
+  color: #988c8cbd;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+}
+/* footer comp */
