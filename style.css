@@ -161,8 +161,9 @@ a {
   padding-top: 5rem;
   text-align: center;
   position: relative;
-  transition: all 0.3s ease;
+  transition: all 1.5s ease;
   border-radius: 15px;
+  cursor: pointer;
 }
 .our-services .card-wrapper .card .svg-icon {
   position: absolute;
@@ -196,6 +197,7 @@ a {
   text-align: center;
   background-image: url(images/camera.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   clip-path: polygon(
     0 0,
@@ -236,15 +238,196 @@ a {
   background-color: antiquewhite;
 }
 /* freelancer sec complete */
-/* blog sec */
-.blog {
+/* portfolio sec */
+.portfolio {
   background-color: #262525;
   color: #fff;
 }
-.blog-heading {
-  color: #fff;
+.portfolio-heading {
+  color: lightgreen;
   text-align: center;
   padding-top: 5%;
   line-height: 2.5;
   font-size: 30px;
+  font-style: oblique;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.last-projects {
+  color: #5bd9ee;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.portfolio .card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+  padding: 5%;
+}
+.portfolio .card-wrapper .card {
+  background-color: #fff;
+  padding: 3rem 0.5rem;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+.portfolio .card-wrapper .card h4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  padding-top: 5px;
+  color: #ebd3d3;
+  text-decoration: underline;
+}
+/* .portfolio .card-wrapper .card h4:hover {
+  color: #fff;
+} */
+.portfolio .card-wrapper .card p {
+  color: #988c8c;
+  line-height: 1.6;
+}
+.portfolio .card-wrapper .card:hover {
+  background-color: #3877ff;
+  color: #fff;
+}
+/* .portfolio .card-wrapper .card h4,
+.portfolio .card-wrapper .card p:hover {
+  color: #767070;
+} */
+.pics {
+  width: 290px;
+  border-radius: 9px;
+}
+/* Portfolio-sec-end */
+.contact-heading {
+  text-align: center;
+  padding-top: 5%;
+  line-height: 2.5;
+  font-size: 25px;
+}
+.contact-heading span {
+  color: #3877ff;
+}
+.contact-us .card-wrapper {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+.contact-us .card-wrapper .card {
+  text-align: center;
+}
+.contact-us .card-wrapper .card .fa-regular,
+.fa-solid {
+  margin-bottom: 2rem;
+}
+.contact-us .card-wrapper .card h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.contact-us .card-wrapper .card h4 {
+  font-size: 1rem;
+  color: #988c8c;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.contact-us .input-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-us .input-second-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us input {
+  padding: 0.5rem;
+  border: 1px solid #988c8c;
+  font-size: 0.9rem;
+}
+.contact-us .input-second-wrap input {
+  margin-bottom: 2rem;
+}
+
+.contact-us .input-second-wrap textarea {
+  padding: 0.5rem;
+  border: 1px solid #988c8c;
+  font-size: 0.9rem;
+}
+.contact-us .input-second-wrap textarea:focus,
+.contact-us input:focus {
+  outline: none;
+}
+.btn-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+.send-msg {
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 9px;
+  border: none;
+  padding: 0.8rem 3rem;
+  background-color: #31f8da;
+  transition: 2s ease;
+}
+
+.send-msg:hover {
+  background-color: #3877ff;
+  color: #fff;
+}
+/* contact-us sec end */
+/* footer */
+footer {
+  background-color: #262525;
+  margin-top: 2rem;
+  position: relative;
+}
+.footer-icons .fa-brands {
+  color: #bbb;
+  font-size: 1.5rem;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  gap: 3rem;
+}
+.footer-icons .fa-brands:hover {
+  cursor: pointer;
+  background: linear-gradient(#fff, #3877ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-logo {
+  /* font-size: 10rem;
+
+  font-family: "Times New Roman", Times, serif; */
+  color: lightgoldenrodyellow;
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  background-size: cover;
+  background-image: url(images/depositphotos_159337220-stock-illustration-sr-brush-letter-logo-design.jpg);
+}
+.footer-sr-logo {
+  text-align: center;
 }
