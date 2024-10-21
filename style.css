@@ -86,7 +86,7 @@ a {
 .content .detail {
   font-size: 1.1rem;
   color: #fff;
-  max-width: 40rem;
+  max-width: 44rem;
   margin: 1.1rem 0 3rem 0;
   line-height: 1.8rem;
 }
@@ -100,7 +100,7 @@ a {
   align-items: center;
 }
 .btn-container button {
-  border: 0.1rem solid #5db9ee;
+  border: 0.1rem solid #1e80b9;
   font-size: 1.1rem;
   padding: 0.8rem 2.5rem;
   border-radius: 0.5rem;
@@ -243,8 +243,11 @@ a {
 /* freelancer sec complete */
 /* portfolio sec */
 .portfolio {
-  background-color: #262525;
+  /* background-color: #262525; */
   color: #fff;
+  background-image: url(images/2nd-bckgrnd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .portfolio-heading {
   color: lightgreen;
@@ -278,10 +281,12 @@ a {
   padding: 3rem 0.5rem;
   text-align: center;
   position: relative;
-  transition: all 0.3s ease;
   border-radius: 15px;
   cursor: pointer;
   transition: all 1.5s ease;
+  background-image: url(images/card-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .portfolio .card-wrapper .card h4 {
   font-weight: 700;
