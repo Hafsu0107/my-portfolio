@@ -21,6 +21,9 @@
     0 100%,
     0% 20%
   );
+  background-image: url(images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav-bar {
   display: flex;
@@ -99,7 +102,7 @@ a {
 .btn-container button {
   border: 0.1rem solid #5db9ee;
   font-size: 1.1rem;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: 2s ease;
