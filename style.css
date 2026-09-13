@@ -21,9 +21,9 @@
     0 100%,
     0% 20%
   );
-  background-image: url(images/background-image.jpg);
+  background-image: url(./profilepic.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto
 }
 .nav-bar {
   display: flex;
